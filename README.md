@@ -11,7 +11,7 @@ Welcome to the Basic Bot Made in Discord.js v14! This is the first version of th
 
 To get started with the Basic Bot Made in Discord.js v14, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/DwepIsBeautiful/Discord-Bot-Template.git`
+1. Clone the repository: `git clone https://github.com/DwepIsBeautiful/Bot-base-Discord.js-v14.git`
 2. Install dependencies: `npm install`
 3. Set up your environment variables. You will need add you token a `src/config/config.json`
 4. Start the bot: `node main.js`
