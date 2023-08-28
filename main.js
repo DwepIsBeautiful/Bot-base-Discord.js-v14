@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { Client, GatewayIntentBits, Collection } from "discord.js";
 import config from "./src/config/config.json" assert { type: "json" };
 import loaderEvents from "./src/handle/event-Handler.js";
@@ -20,10 +21,6 @@ const client = new Client({
 client.commands = new Collection();
 
 client.login(config.client_token).then(() => {
-  try {
-    loaderSlashCommands(client);
-    loaderEvents(client);
-  } catch (error) {
-    console.error(error);
-  }
+  loaderSlashCommands(client);
+  loaderEvents(client);
 });
