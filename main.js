@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { Client, GatewayIntentBits, Collection } from "discord.js";
+import { connectToDatabase } from "./src/database/index.js";
 import loaderEvents from "./src/handle/event-Handler.js";
 import loaderSlashCommands from "./src/handle/command-Handler.js";
 
@@ -16,6 +17,9 @@ const client = new Client({
     GatewayIntentBits.GuildModeration,
   ],
 });
+
+//db
+connectToDatabase();
 
 client.commands = new Collection();
 
