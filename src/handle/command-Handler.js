@@ -1,8 +1,6 @@
 import { readdirSync } from "fs";
 
 export default async function loaderSlashCommands(client) {
-  await client.commands.clear();
-
   const commands = [];
 
   const categories = readdirSync("src/commands", { withFileTypes: true })
