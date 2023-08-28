@@ -15,5 +15,8 @@
   "scripts": {
     "dev": "nodemon main.js",
     "start": "node main.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
