@@ -1,24 +1,25 @@
 # Basic Bot base Made in Discord.js v14
 
-Welcome to the Basic Bot Made in Discord.js v14! This is the first version of this bot, and it comes with compatibility with commands slash
+Welcome to the Basic Bot Made in Discord.js v14! This is the first version of this bot, featuring compatibility with slash commands.
 
 ## Features
 
-- Commands slash with command Handler and event Handler
-- Easy to use and set up
+- Slash commands with Command Handler and Event Handler
+- User-friendly setup process
 
 ## Getting Started
 
-To get started with the Basic Bot Made in Discord.js v14, follow these steps:
+To begin using the Basic Bot Made in Discord.js v14, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/DwepIsBeautiful/Bot-base-Discord.js-v14.git`
-2. Install dependencies: `npm install`
-3. Set up your environment variables. You will need add you token a `src/config/config.json`
-4. Start the bot: `node main.js`
+2. Install the required dependencies: `npm install`
+3. Create a `.env` file in the root directory of the project.
+4. In the `.env` file, insert your bot token following the example provided in `example.env` from the repository.
+5. Launch the bot: `node main.js`
 
 ## Usage
 
-Once the bot is up and running, you can use the following example commands:
+Once the bot is up and running, you can utilize the following example commands:
 
-- `/ban` - Ban member
-- `/ping` - responds with "Pong!"
+- `/ban` - Ban a member
+- `/ping` - Receive a "Pong!" response
